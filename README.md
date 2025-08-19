@@ -38,20 +38,20 @@ Technical deep-dive into the codebase structure, database design, and API archit
 
 ### Prerequisites
 - Node.js 18+ 
-- npm or yarn package manager
+- pnpm package manager
 
 ### Installation
 
 ```bash
 git clone https://github.com/orhanbiler/field-training-docs.git
 cd field-training-docs
-npm install
+pnpm install
 ```
 
 ### Start Development Server
 
 ```bash
-npm start
+pnpm start
 ```
 
 This command starts a local development server and opens a browser window. Most changes are reflected live without having to restart the server.
@@ -59,16 +59,18 @@ This command starts a local development server and opens a browser window. Most 
 ### Build for Production
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 This command generates static content into the `build` directory that can be served using any static content hosting service.
 
 ## 🚀 Deployment
 
-This site is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a new deployment.
+This site is automatically deployed to Vercel. Every push to the `main` branch triggers a new deployment.
 
-**Live Site:** [https://orhanbiler.github.io/field-training-docs/](https://orhanbiler.github.io/field-training-docs/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/orhanbiler/field-training-docs)
+
+**Live Site:** [https://field-training-docs.vercel.app](https://field-training-docs.vercel.app)
 
 ## 🏢 About the Project
 
