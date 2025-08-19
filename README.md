@@ -38,20 +38,20 @@ Technical deep-dive into the codebase structure, database design, and API archit
 
 ### Prerequisites
 - Node.js 18+ 
-- pnpm package manager
+- npm package manager
 
 ### Installation
 
 ```bash
 git clone https://github.com/orhanbiler/field-training-docs.git
 cd field-training-docs
-pnpm install
+npm install
 ```
 
 ### Start Development Server
 
 ```bash
-pnpm start
+npm start
 ```
 
 This command starts a local development server and opens a browser window. Most changes are reflected live without having to restart the server.
@@ -59,7 +59,7 @@ This command starts a local development server and opens a browser window. Most 
 ### Build for Production
 
 ```bash
-pnpm run build
+npm run build
 ```
 
 This command generates static content into the `build` directory that can be served using any static content hosting service.
